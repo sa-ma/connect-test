@@ -25,12 +25,12 @@ let package = Package(
               .product(name: "GandalfConnectAPI", package: "GandalfConnectAPI"),
               .product(name: "Apollo", package: "apollo-ios"),
             ],
-            path: "./Sources/GandalfConnect"
+            path: "Sources/GandalfConnect"
         ),
         .executableTarget(
             name: "Example",
             dependencies: ["GandalfConnect"],
-            path: "./Sources/Example"
+            path: "Sources/Example"
         ),
         .testTarget(
             name: "GandalfConnectTests",
