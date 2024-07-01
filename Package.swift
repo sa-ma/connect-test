@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apollographql/apollo-ios.git", .upToNextMajor(from: "1.12.2")),
-        .package(path: "./GandalfConnectAPI"),
+        .package(path: "GandalfConnectAPI"),
     ],
     targets: [
         .target(
